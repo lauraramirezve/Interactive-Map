@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<style type="text/css">
-	html, body {
-		margin: 0;
-		top: 0;
-		left;
-	}
-	.tooltip {
-		color: white;
-		font-family:'Helvetica Neue', sans-serif;
-		font-size:1em;
-		font-weight:800;
-		/*border:0.5px solid #fff;*/
-		position:fixed;
-		/*background-color:black;*/
-		opacity:0;
-		padding:1%;
-/*		transition:0.25s ease-in-out;*/
-	}
-	.tooltip img {
-		background-color: black;
-		width: 25em;
-		height: auto;
-/*		transition: 0.5s ease-in-out;*/
-	}
-</style>
-<body>
-
-<!-- insert svg code here -->
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
@@ -48,13 +15,6 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 792"
 	 style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.Drop_x0020_Shadow{fill:none;}
-	.Round_x0020_Corners_x0020_2_x0020_pt{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.Live_x0020_Reflect_x0020_X{fill:none;}
-	.Bevel_x0020_Soft{fill:url(#SVGID_1_);}
-	.Dusk{fill:#FFFFFF;}
-	.Foliage_GS{fill:#FFDD00;}
-	.Pompadour_GS{fill-rule:evenodd;clip-rule:evenodd;fill:#44ADE2;}
 	.st0{fill:none;stroke:#CCE9E1;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#97BDBD;stroke-miterlimit:10;}
 	.st2{opacity:0;fill:#56BF9B;}
@@ -68,15 +28,6 @@
 		</i:aipgfRef>
 	</foreignObject>
 	<g i:extraneous="self">
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0.7071" y2="0.7071">
-			<stop  offset="0" style="stop-color:#DEDFE3"/>
-			<stop  offset="0.1738" style="stop-color:#D8D9DD"/>
-			<stop  offset="0.352" style="stop-color:#C9CACD"/>
-			<stop  offset="0.5323" style="stop-color:#B4B5B8"/>
-			<stop  offset="0.7139" style="stop-color:#989A9C"/>
-			<stop  offset="0.8949" style="stop-color:#797C7E"/>
-			<stop  offset="1" style="stop-color:#656B6C"/>
-		</linearGradient>
 		
 			<image style="overflow:visible;" width="1545" height="2000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABgkAAAfQCAYAAAD4sr86AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAb
 /QAAG/0Bl9EHNgAABHhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0n
@@ -34865,10 +34816,10 @@ YMWKFStWrFixYsWKFStWfOjx/wH2PCOSaEPFJQAAAABJRU5ErkJggg==" transform="matrix(0.39
 			c-0.69,0.31-3.78,0.15-3.78,0.15l-1.39-1.08v-0.77l0.31-0.69h2.31l-6.01-12.46c0,0-1,2.06-1.16,4.37
 			c-0.15,2.31-0.77,5.86-0.62,6.7c0.15,0.85-1,1.77-0.69,4.16c0.31,2.39,4.93,1.54,4.93,1.54s1,1.31,0.08,2.39s-0.39,2.54-0.39,2.54
 			L451.38,213z"/>
-		<rect x="208.35" y="447.16" onclick="updateImgTooltip('patbo.png')" class="st2" width="120.05" height="313.75"/>
-		<rect x="518.56" y="300.77" onclick="updateImgTooltip('cala.png')" class="st3" width="93.05" height="268.71"/>
-		<rect x="345.73" y="378.09" onclick="updateImgTooltip('andrea.png')" class="st4" width="93.05" height="268.71"/>
-		<rect x="449.55" y="558.52" onclick="updateImgTooltip('maiyo.png')" class="st5" width="93.05" height="268.71"/>
+		<rect x="208.35" y="447.16" onclick="updateImgTooltip(“patbo.png”)" class="st2" width="120.05" height="313.75"/>
+		<rect x="518.56" y="300.77" onclick="updateImgTooltip(“cala.png”)" class="st3" width="93.05" height="268.71"/>
+		<rect x="345.73" y="378.09" onclick="updateImgTooltip(“andrea.png”)" class="st4" width="93.05" height="268.71"/>
+		<rect x="449.55" y="558.52" onclick="updateImgTooltip(“maiyo.png”)" class="st5" width="93.05" height="268.71"/>
 	</g>
 </switch>
 <i:aipgf  id="adobe_illustrator_pgf" i:pgfEncoding="zstd/base64" i:pgfVersion="24">
@@ -34935,9 +34886,9 @@ wAURIGyQYKBWgCip0JDBw4SGQwQIDQarALFwYCBBg3IDIAcUKmSg4eEB0QAGG0x40EAF8gAEYwIL
 qGACFgxAgwkVOEDBYTGAh4aHDRoiDIDCgwOFCAxgAgoOESA0OPCgIUKCeGBChAgOFSANFSQ4YNCw
 ACKhAQQKMgGFhwkRJigoUHB4MOHBARUkOGSwwYMJi4WFI6tVY9MByaK2ZqrmSnukdjaaMokKUjog
 PtYw036zu1BweACEAywsHEOoR5LSARkywQcmJDCQAOECCRtMSCwsHE5fyQQOIYBAgUJDByQ0KBYW
-jgU4gNhMkIRoAB6AkQkcKjQsJEyAIAEGHaBQiAMGDRoQCRAaMiCNgEzgEKECBAgsLBwSREAkCIHD
-A4QMGh5AGh42aFBABGSChwmNFiMygYQJECg8OEiAIStALCwcU4qIBA+I4GFChYaHChQ2iBChAkIm
-eJhQocHhQbGwcJApduCAgQkXIBxY4AAALAT3jxAeGS3RXjAnh5By7i9OGps5JVJmOTySV/rgfdNi
+jgU4gLQTJCEagAdgZAKHCg0LCRMgSIBBBygU4oBBgwZEAoSGDEgjIBM4RKgAAQILC4cEERAJQuDw
+ACGDhgeQhocNGhQQAZngYUKjxYhMIGECBAoPDhJgyAoQCwvHlCIiwQMieJhQoeGhAoUNIkSogJAJ
+HiZUaHB4UCwsHGSKHThgYMIFCAcWOAAACwH3jxAeGS3RXjAnh5By7i9OGps5JVJmOTySV/rgfdNi
 LTEqHrFT0uCxfAVbcvdXnZhBjt2Rs+oudBmogFXe6LscSjva+GdKfH08yryTVZrlp+rEO/8tTlFO
 tcr97NOplRxszZSZdCV/RomGLfMr+ZM0eTfn1GXn7Trg9O+nDQuapq4b0dWnhgq1p3nWDY8KDVnS
 3GvXDLFlF3wJFTaxXnVWbqiQ7nqJqrJWv/qwPjRU+/Ra/OJgIRGy/CFe66xIt9LdfOxpdqkXz9Je
@@ -40289,45 +40240,3 @@ OFZzuA5/gXjM0lrv+MiDE/t9OB4=
 	]]>
 </i:aipgf>
 </svg>
-
-<!-- end svg code here -->
-
-<div class="tooltip"></div>
-
-</body>
-<script type="text/javascript">
-
-let tooltip=document.querySelector('.tooltip')
-
-// gets position of mouse on the page
-function getpos(event) {
-	var e = window.event;
-	x = e.clientX ;
-	y = e.clientY ;
-} 
-
-function updateTooltip(text_to_display){
-	tooltip.innerHTML=text_to_display
-	getpos()
-	tooltip.style.opacity=1
-	tooltip.style.left=x+30+"px"
-	tooltip.style.top=y-30+"px"
-}
-
-function updateImgTooltip(img_to_display){
-	tooltip.innerHTML=''
-	tooltip.style.opacity=1
-	picture = document.createElement('img')
-	picture.src=img_to_display
-	tooltip.appendChild(picture)
-	getpos()
-	tooltip.style.left=x-300+"px"
-	tooltip.style.top=y-200+"px"
-}
-
-function clearTooltip() {
-	tooltip.style.opacity=0
-}
-
-</script>
-</html>
