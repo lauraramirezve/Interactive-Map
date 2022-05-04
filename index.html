@@ -14,15 +14,15 @@
 		font-family:'Helvetica Neue', sans-serif;
 		font-size:1em;
 		font-weight:800;
-		border:0.5px solid #fff;
+	/*	border:0.5px solid #fff;*/
 		position:fixed;
-		background-color:black;
+		/*background-color:black;*/
 		opacity:0;
 		padding:1%;
 /*		transition:0.25s ease-in-out;*/
 	}
 	.tooltip img {
-		background-color: black;
+		/*background-color: black;*/
 		width: 25em;
 		height: auto;
 /*		transition: 0.5s ease-in-out;*/
@@ -40323,8 +40323,8 @@ function updateImgTooltip(img_to_display){
 	picture.src=img_to_display
 	tooltip.appendChild(picture)
 	getpos()
-	tooltip.style.left=x+30+"px"
-	tooltip.style.top=y-30+"px"
+	tooltip.style.left=x-300+"px"
+	tooltip.style.top=y-200+"px"
 }
 
 function clearTooltip() {
